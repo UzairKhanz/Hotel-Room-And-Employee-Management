@@ -1,0 +1,45 @@
+Entities:
+
+x---------x----------x
+1)Product
+{
+product_id PK
+product_name varchar
+product_type varchar
+price int
+supplier_id FK
+}
+
+x---------x----------x
+2)Customer
+{
+customer_id PK
+name varchar
+phone varcahr
+payment int
+
+}
+
+x---------x----------x
+3)Suplier
+{
+supplier_id PK
+supplier_name varchar
+phone varchar
+payment int
+}
+
+x---------x----------x
+4)Inventory
+prodcut_id FK
+quantity int
+Updated_Dated date
+
+x---------x----------x
+5)Sales
+sale_id PK
+customer_id FK
+prodcut_id FK
+quantity int
+date int
+amount int

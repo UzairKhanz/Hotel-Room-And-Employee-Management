@@ -1,0 +1,6 @@
+Add buy price and sell price in inventory;
+
+
+Update Product
+View Sales
+Bar Graphs
